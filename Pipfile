@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# this is a fork of demucs that is stable while the upstream version's api settles down
+# git+https://github.com/boxabirds/demucs#egg=demucs
+mutagen = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
